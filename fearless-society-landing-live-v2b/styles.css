@@ -1249,9 +1249,8 @@ h2 {
 
 @media (max-width: 620px) {
   .site-header {
- padding: 12px 14px;
- box-sizing: border-box;
-}
+    padding: 14px 16px;
+  }
 
   .brand-mark strong {
     display: none;
@@ -1268,10 +1267,8 @@ h2 {
   }
 
   h1 {
- font-size: clamp(1.8rem, 10vw, 3rem);
- letter-spacing: 0.05em;
- line-height: 1.1;
-}
+    font-size: clamp(3.8rem, 18vw, 6.4rem);
+  }
 
   h2 {
     font-size: clamp(2.7rem, 13vw, 4.4rem);
