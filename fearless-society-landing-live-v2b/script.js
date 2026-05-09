@@ -149,7 +149,7 @@ form?.addEventListener("submit", async (event) => {
     `Access: First Drop - Limited Pre-Order`,
     `Ships: 4-6 weeks after order confirmation`,
     ``,
-    `Built in silence. Worn with intent.`,
+    `Fear Nothing. Become Everything.`,
     `Built with intention. No shortcuts.`,
     `Fearless Society -2T17-`,
   ].join("\n");
