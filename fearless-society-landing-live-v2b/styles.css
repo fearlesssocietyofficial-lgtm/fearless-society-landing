@@ -1,11 +1,11 @@
 :root {
-  --black: #050505;
+  --black: #000000;
   --charcoal: #111111;
-  --stone: #d9d4c8;
-  --gold: #d4af37;
-  --gold-soft: #f0d780;
-  --line: rgba(212, 175, 55, 0.16);
-  --white: #f8f5ed;
+  --stone: #E8E4E1;
+  --gold: #C9A84C;
+  --gold-soft: #D4B663;
+  --line: rgba(201, 168, 76, 0.16);
+  --white: #E8E4E1;
   --max: 1240px;
 }
 
@@ -21,8 +21,8 @@ body {
   margin: 0;
   color: var(--white);
   background:
-    linear-gradient(180deg, #050505 0%, #080807 42%, #050505 100%);
-  font-family: Inter, system-ui, sans-serif;
+    linear-gradient(180deg, #000000 0%, #000000 42%, #000000 100%);
+  font-family: Georgia, serif;
 }
 
 body::selection {
@@ -98,9 +98,9 @@ img {
 
 .brand-mark strong,
 .site-footer strong {
-  font-family: Oswald, sans-serif;
+  font-family: Georgia, serif;
   font-size: 0.98rem;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
 }
 
@@ -346,9 +346,9 @@ img {
 h1,
 h2 {
   margin: 0;
-  font-family: Oswald, Impact, sans-serif;
+  font-family: Georgia, serif;
   font-weight: 700;
-  letter-spacing: 0;
+  letter-spacing: 0.15em;
   line-height: 0.92;
   text-transform: uppercase;
 }
@@ -660,7 +660,7 @@ h2 {
   grid-column: 1 / -1;
   padding: clamp(86px, 10vw, 150px) clamp(28px, 6vw, 96px);
   border-top: 1px solid rgba(212, 175, 55, 0.12);
-  background: #050505;
+  background: #000000;
 }
 
 .drop-preview-header {
@@ -685,10 +685,10 @@ h2 {
   max-width: 700px;
   margin: 0;
   color: rgba(248, 245, 237, 0.82);
-  font-family: Oswald, sans-serif;
+  font-family: Georgia, serif;
   font-size: clamp(2.6rem, 5.8vw, 6.5rem);
   font-weight: 600;
-  letter-spacing: 0;
+  letter-spacing: 0.12em;
   line-height: 0.95;
   text-transform: uppercase;
   text-align: right;
@@ -776,9 +776,10 @@ h2 {
 .preview-piece strong {
   display: block;
   color: var(--white);
-  font-family: Oswald, sans-serif;
+  font-family: Georgia, serif;
   font-size: clamp(1.26rem, 2.6vw, 2.45rem);
   font-weight: 600;
+  letter-spacing: 0.1em;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -989,10 +990,11 @@ h2 {
   right: -42px;
   bottom: -82px;
   content: "2T17";
-  color: rgba(212, 175, 55, 0.045);
-  font-family: Oswald, sans-serif;
+  color: rgba(201, 168, 76, 0.045);
+  font-family: Georgia, serif;
   font-size: 10rem;
   font-weight: 700;
+  letter-spacing: 0.1em;
   line-height: 1;
 }
 
@@ -1079,7 +1081,7 @@ h2 {
 
 .tribe-card-bottom div:last-child strong {
   color: var(--white);
-  font-family: Inter, system-ui, sans-serif;
+  font-family: Georgia, serif;
   letter-spacing: 0.16em;
 }
 
